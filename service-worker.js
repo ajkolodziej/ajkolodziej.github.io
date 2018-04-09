@@ -14,7 +14,7 @@
  * limitations under the License.
  *
  */
-
+alert('ok');
 if (!Cache.prototype.addAll) {
   Cache.prototype.addAll = function addAll(requests) {
     var cache = this;
