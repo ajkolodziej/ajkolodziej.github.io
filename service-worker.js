@@ -1,5 +1,3 @@
-/*importScripts('js/cache-polyfill.js');*/
-
 var CACHE_VERSION = 'app-v1';
 var CACHE_FILES = [
     '/',
