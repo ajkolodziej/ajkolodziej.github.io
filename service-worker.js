@@ -9,7 +9,6 @@ var CACHE_FILES = [
     'https://fonts.googleapis.com/css?family=Roboto:100'
 ];
 
-
 self.addEventListener('install', function (event) {
     event.waitUntil(
         caches.open(CACHE_VERSION)
