@@ -4,8 +4,8 @@
   "theme_color": "#2196f3",
   "background_color": "#2196f3",
   "display": "standalone",
-  "Scope": "/serviceworker/",
-  "start_url": "/serviceworker/",
+  "Scope": "/",
+  "start_url": "/?test=home",
   "icons": [
     {
       "src": "images/icons/icon-72x72.png",
