@@ -1,15 +1,3 @@
-
-  const CACHE_NAME = 'app-cache';
-
-const urlsToCache = [
-  '/index.html',
-  '/',
-  'css/style.css',
-  'images/',
-  'images/background.jpeg',
-  'js/app.js',
-  'https://fonts.googleapis.com/css?family=Roboto:100'
-];
 /*
  Copyright 2016 Google Inc. All Rights Reserved.
  Licensed under the Apache License, Version 2.0 (the "License");
