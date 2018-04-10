@@ -1,4 +1,4 @@
-<script>
+
   const CACHE_NAME = 'app-cache';
 
 const urlsToCache = [
@@ -16,4 +16,4 @@ self.addEventListener('install', (event) => {
     return cache.addAll(urlsToCache);
   }));
 });
-</script>
+
