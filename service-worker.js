@@ -4,6 +4,8 @@ const urlsToCache = [
   '/index.html',
   '/',
   'css/style.css',
+  'images/',
+  'images/background.jpeg',
   'js/app.js',
   'https://fonts.googleapis.com/css?family=Roboto:100'
 ];
