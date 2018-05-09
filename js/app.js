@@ -8,11 +8,13 @@ function getLocation() {
 
 //function that retrieves the position
 function showPosition(position) {
+  var myPosition = document.getElementById("myPosition");
   var location = {
     longitude: position.coords.longitude,
     latitude: position.coords.latitude
   }
-  console.log(location)
+  console.log(location);
+  myPosition.textContent = location;
 }
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
