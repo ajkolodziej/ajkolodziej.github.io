@@ -14,7 +14,8 @@ function showPosition(position) {
     latitude: position.coords.latitude
   }
   console.log(location);
-  myPosition.textContent = location;
+  alert(location);
+  myPosition.textContent = location.longitude;
 }
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
