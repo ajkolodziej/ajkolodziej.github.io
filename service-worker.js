@@ -71,3 +71,12 @@ self.addEventListener('fetch', event => {
     );
   }
 });
+function getLocation() {
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    console.log("Geo Location not supported by browser");
+  }
+}
+
+getLocation();
